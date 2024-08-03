@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+/* Header */
+.header{
+    padding: 8px 4px;
+    background-color: rgb(225, 223, 223);
+    text-align: center;
+}
+.user-profile{
+    width: 180;
+    height: 180;
+    border-radius: 50%;
+}
+/* Main Body */
+.main-body{
+    margin: 16px;
+}
+.body-sections{
+    padding: 8px 0px 16px 8px;
+    background-color: rgb(225, 223, 223);
+}
+.project-list{
+    display: flex;
+    justify-content: left;
+    align-items: start;
+}
+.projects{
+    width: 200px;
+    height: 200px;
+    border: 1px solid rgb(185, 183, 183);
+    text-align: center;
+}
+/* Footer */
+.footer{
+    padding: 4px 2px;
+    background-color: rgb(225, 223, 223);
+    text-align: center;
+}
+
+/* Reuse able class */
+.mr-16{
+    margin-right: 16px;
+}
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
